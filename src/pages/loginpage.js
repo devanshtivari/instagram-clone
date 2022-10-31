@@ -12,11 +12,11 @@ function Loginpage() {
   const[error,seterror] = useState('');
   const isInvalid = password === "" || email === "" ;
 
-  const handleLogin = () => {
-    useEffect(() => {
-      document.title = "Login - Instagram";
-    })
-  }
+  const handleLogin = ()=> {};
+
+  useEffect(() => {
+    document.title = 'Login - Instagram'
+  }, []);
 
   return (
     <div>this is the loginpage</div>
