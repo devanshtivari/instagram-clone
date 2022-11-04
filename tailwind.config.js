@@ -1,5 +1,8 @@
-module.exports={
-  future:{
-    removeDeprecatedGapUtilities: true 
-  }
-}
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
